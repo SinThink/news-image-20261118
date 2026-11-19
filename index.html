@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>THE WORLD DAILY — 18 November 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1024px; height: 1024px; overflow: hidden; }
+  body {
+    font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
+    background: #f5f1e6;
+    color: #14110d;
+    padding: 22px 26px 20px 26px;
+    display: flex;
+    flex-direction: column;
+  }
+  .masthead {
+    border-bottom: 5px solid #14110d;
+    padding-bottom: 8px;
+    text-align: center;
+  }
+  .paper {
+    font-size: 68px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+  .strap {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 8px;
+    font-family: "DejaVu Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid #14110d;
+    padding-top: 6px;
+  }
+  .strap .date { letter-spacing: 1px; }
+  .lead {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 268px;
+    gap: 18px;
+    border-bottom: 4px solid #14110d;
+    padding-bottom: 14px;
+  }
+  .lead h1 {
+    font-size: 47px;
+    line-height: 1.02;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+  }
+  .lead .deck {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.28;
+    color: #2a251d;
+  }
+  .lead .deck b { font-weight: 900; }
+  .ticker {
+    background: #8d1b1b;
+    color: #fff8ea;
+    padding: 12px 13px 12px 13px;
+  }
+  .ticker .lbl {
+    font-family: "DejaVu Sans", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgba(255,248,234,0.55);
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+  }
+  .ticker ul { list-style: none; }
+  .ticker li {
+    font-size: 17px;
+    line-height: 1.22;
+    padding: 7px 0 7px 14px;
+    border-left: 4px solid #f0c85a;
+  }
+  .ticker li + li { margin-top: 8px; }
+  .grid {
+    margin-top: 14px;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0 22px;
+  }
+  .item {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #b9ae97;
+  }
+  .item.tall { border-bottom: none; padding-bottom: 8px; }
+  .grid .item:nth-child(1),
+  .grid .item:nth-child(2) { padding-bottom: 12px; }
+  .kicker {
+    font-family: "DejaVu Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1.6px;
+    color: #8d1b1b;
+    margin-bottom: 3px;
+  }
+  .item h2 {
+    font-size: 30px;
+    line-height: 1.06;
+    font-weight: 900;
+    margin-bottom: 6px;
+    letter-spacing: -0.3px;
+  }
+  .item p {
+    font-size: 18px;
+    line-height: 1.26;
+    color: #2f2820;
+  }
+  .item p b { font-weight: 900; color: #14110d; }
+  .bar {
+    height: 6px;
+    background: #14110d;
+    margin: 0 0 10px 0;
+  }
+  .band {
+    display: grid;
+    grid-template-columns: 1fr 104px;
+    gap: 20px;
+    align-items: center;
+  }
+  .stamp {
+    background: #14110d;
+    color: #f0c85a;
+    text-align: center;
+    padding: 6px 0 8px 0;
+    font-family: "DejaVu Sans", Arial, Helvetica, sans-serif;
+  }
+  .stamp-big { font-size: 44px; font-weight: 900; line-height: 1; }
+  .stamp-small { font-size: 13px; font-weight: 700; letter-spacing: 2px; line-height: 1.15; margin-top: 2px; }
+  .foot {
+    border-top: 5px solid #14110d;
+    margin-top: 6px;
+    padding-top: 6px;
+    font-family: "DejaVu Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="paper">THE WORLD DAILY</div>
+    <div class="strap">
+      <span>WEDNESDAY&nbsp;&nbsp;18 November 2026</span>
+      <span>WORLD NEWS AT A GLANCE</span>
+    </div>
+  </div>
+
+  <div class="lead">
+    <div>
+      <div class="kicker">LEAD STORY &nbsp;·&nbsp; GULF</div>
+      <h1>Iran fires on Kuwait and Bahrain; US hits back at Qeshm</h1>
+      <div class="deck">
+        Iran attacked <b>Ali Al Salem Air Base</b>, a base used by US forces in Kuwait,
+        and struck targets in <b>Bahrain</b>. The US responded with strikes on Iranian
+        missile launch sites on <b>Qeshm Island</b> in the Strait of Hormuz, where a
+        fifth of the world's oil passes.
+      </div>
+    </div>
+    <div class="ticker">
+      <div class="lbl">BULLETIN</div>
+      <ul>
+        <li><b>Kerch Bridge hit</b> for a second day; road span partly collapsed.</li>
+        <li><b>Xi, Putin</b> meet in Shenzhen at APEC.</li>
+        <li><b>Democrats 56–44</b> after Peltola wins Alaska.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid">
+
+    <div class="item tall">
+      <div class="kicker">UKRAINE &nbsp;·&nbsp; CRIMEA</div>
+      <h2>Second day of strikes hits Kerch Bridge</h2>
+      <p>Part of the <b>road span collapsed</b> after a second consecutive day of
+         attacks on the bridge linking occupied Crimea to Russia.</p>
+    </div>
+
+    <div class="item tall">
+      <div class="kicker">ASIA-PACIFIC &nbsp;·&nbsp; APEC</div>
+      <h2>Xi and Putin meet in Shenzhen</h2>
+      <p>A day before Trump's trilateral summit, they discussed <b>Ukraine, Iran
+         and strategic stability</b>.</p>
+    </div>
+
+    <div class="item">
+      <div class="kicker">UNITED STATES &nbsp;·&nbsp; SENATE</div>
+      <h2>Peltola takes Alaska; Democrats 56–44</h2>
+      <p><b>Mary Peltola (D)</b> beat incumbent Dan Sullivan (R) with
+         <b>50.12%</b> of the vote.</p>
+    </div>
+
+    <div class="item">
+      <div class="kicker">BRUSSELS &nbsp;·&nbsp; UKRAINE</div>
+      <h2>EU proposes €45bn loan for Ukraine</h2>
+      <p><b>€25bn military</b> and <b>€20bn budget support</b> for 2027, drawn
+         from frozen Russian assets.</p>
+    </div>
+
+  </div>
+
+  <div class="bar"></div>
+  <div class="band">
+    <div class="item" style="border-bottom:none; padding-bottom:0;">
+      <div class="kicker">TRADE &nbsp;·&nbsp; EU–INDONESIA</div>
+      <h2 style="font-size:27px; margin-bottom:4px;">EU Council backs signing CEPA and IPA</h2>
+      <p style="font-size:17px;">The Council cleared the way for the EU's trade and
+         investment agreements with Indonesia; <b>signing and then European Parliament
+         approval</b> are the next steps in Brussels.</p>
+    </div>
+    <div class="stamp">
+      <div class="stamp-big">18</div>
+      <div class="stamp-small">NOV<br>2026</div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>6 STORIES · 3 CONTINENTS</span>
+    <span>EDITION 18.11.2026</span>
+  </div>
+
+</body>
+</html>
